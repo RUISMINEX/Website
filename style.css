@@ -1,0 +1,588 @@
+/**
+ * General
+ */
+.popover-title 
+{ 
+  display:none; 
+}
+
+.sortable
+{
+  cursor:move;
+}
+
+body
+{
+  margin:70px 0 40px 0;
+  background: #F7F7F7;
+}
+
+body.extra-margin
+{
+  margin-top:90px;
+}
+
+form
+{
+  margin:0;
+}
+
+textarea
+{
+  resize:vertical;
+}
+
+.container
+{
+  margin-left:auto;
+  margin-right:auto;
+  width:940px;
+}
+
+.box
+{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/**
+ * Navbar
+ */
+.navbar-width
+{
+  min-width:1200px; 
+  max-width:1350px; 
+  margin:auto auto;
+}
+
+/**
+ * Search bar
+ */
+.search-bar
+{
+  margin:10px 0 20px 0;
+}
+  
+.search-bar input[type=text]
+{
+  width:250px;
+  margin:0 10px 0 0;
+}
+
+.search-bar select
+{
+  width:220px;
+  margin:0;
+}
+
+.search-bar input[type=submit]
+{
+  margin:0 0 0 10px;
+}
+
+/**
+ * Textarea boxes
+ */
+.refer-link-box
+{
+  font-size:18px;
+  font-weight:bold;
+  width:560px;
+  height:45px;
+  max-height:45px;
+  min-height:45px;
+  margin:10px 0 10px 0;
+  padding:10px;
+}
+
+.setup-secret-key
+{
+  margin:10px 0 10px 0px; 
+  padding:10px;
+  height:20px;
+  width:600px; 
+  font-size:18px;
+  resize:none;
+}
+
+/**
+ * Coupon page
+ */
+ .coupon-option-box
+ {
+  width:auto;
+  padding:0 30px 0 0;
+  margin:0 0 5px 0;
+  float:left;
+ }
+
+/**
+ * Variable page
+ */
+.variable-type-column
+{
+    width:270px;
+    float:left;
+}
+
+.variable-length-column
+{
+  float:left;
+  margin:0 30px 0 0;
+}
+
+/**
+ * Premium page
+ */
+ .premium-header
+ {
+  margin:0 0 10px 0;
+  font-size:24px;
+  text-align:center;
+ }
+
+.premium-slogan
+{
+  margin:0 0 25px 0;
+  font-size:14px;
+  text-align:center;
+}
+
+.premium-container
+{
+  margin:30px auto 10px auto;
+  width:830px;
+}
+
+.premium-table
+{
+  float:left;
+  width:550px;
+  margin:0 40px 0 0;
+}
+
+.premium-feature-name
+{
+  width:330px;
+}
+
+.premium-feature-enabled
+{
+  width:100px;
+  font-weight:bold;
+}
+
+.premium-feature-enabled.yes
+{
+  background:#97C999;
+  text-align:center;
+}
+
+.premium-feature-enabled.no
+{
+  background:#C99797;
+  text-align:center;
+}
+
+.premium-buttons
+{
+  float:left;
+  width:240px;
+  margin:120px auto 10px auto;
+}
+
+.premium-button
+{
+  float:left;
+  margin:15px 0 0 0;
+}
+
+.premium-button .btn-large
+{
+  width:240px;
+}
+
+.premium-smallprint
+{
+  margin:40px 0 10px 0;
+  font-size:12px; 
+  text-align:center;
+}
+
+/**
+ * Premium notification bar
+ */
+.premium-bar
+{
+  margin:auto auto;
+  text-align:center;
+  width:800px;
+  border:1px solid #D1D1D1;
+  border-top:0;
+  background:#E8E6E6;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.premium-bar a, .premium-bar a:hover, .premium-bar a:visited
+{
+  color:#D43737;
+}
+
+/**
+ * Packages page
+ */
+.package-detail-field
+{
+  float:left;
+  width:auto;
+  padding:0 37px 20px 0;
+}
+
+.package-server-field
+{
+  float:left;
+  width:auto;
+  padding:0 40px 10px 0;
+}
+
+/**
+ * Payments gateway page
+ */ 
+ .gateway-checkbox
+ {
+  margin:5px 0 20px 0;
+ }
+
+/**
+ * Webstore page
+ */
+ .webstore-domain-field
+ {
+  width:304px;
+  height:200px;
+  float:left;
+  margin:0 15px 0 0;
+ }
+
+/**
+ * Guest pages layout
+ */
+
+.guest-wrapper
+{
+  width:510px;
+  margin:70px auto 0 auto;
+}
+
+.guest-column
+{
+  height:auto;
+  padding:25px;
+}
+
+.guest-logo
+{
+  width: 264px;
+  height: 80px;
+  background: url('../img/logo.png');
+  margin: 0 auto 30px auto;
+}
+
+.guest-footer
+{
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0 0 0;
+  color: #919090;
+}
+
+/**
+ * User pages layout
+ */
+.user-footer
+{
+  border-top:1px solid #C4C4C4;
+  margin: 25px 0 0 0;
+  padding: 10px 0 0 0;
+  color: #919090;
+  font-size: 12px;
+  width:940px;
+}
+
+.box-container
+{
+  background-color: #fff;
+  margin:0 0 25px 0;
+}
+
+.box-container .box-header, .box-footer
+{
+  background-color: #EBEBEB;  
+  padding: 15px 15px 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  height:30px;
+  border: 1px solid #D6D6D6;
+}
+
+.box-container .box-header
+{
+  border-bottom:0;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  -webkit-border-radius-topright:5px;
+  -webkit-border-radius-topleft:5px;
+  -moz-border-radius-topright:5px;
+  -moz-border-radius-topleft:5px;
+}
+
+.box-container .box-header .checkbox-text
+{
+  font-size:14px;
+  font-weight:normal;
+  vertical-align:-2px;
+  margin-right:5px;
+}
+
+.box-container .seperator
+{
+  border-radius:0;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-top:0;
+}
+
+.box-container .box-footer
+{
+  border-top:0;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  -webkit-border-radius-bottomright:5px;
+  -webkit-border-radius-bottomleft:5px;
+  -moz-border-radius-bottomright:5px;
+  -moz-border-radius-bottomleft:5px;
+}
+
+.box-container .box-content
+{
+  padding:15px;
+  border:1px solid #D6D6D6;
+}
+
+/**
+ * Landing page
+ */
+ .landing-left
+ {
+  float:left;
+  width:415px;
+ }
+
+ .landing-right
+ {
+  margin:0px 0 0 0;
+  float:right;
+ }
+
+/**
+ * Payment settings
+ */
+.free-basket-limit
+{
+  width:25px; 
+  text-align:center; 
+  margin:7px 5px 0 5px;
+}
+
+/**
+ * Sub accounts
+ */
+.subaccount-allow
+{
+  background:#97C999;
+  text-align:center;
+  width:100px;
+}
+
+.subaccount-deny
+{
+  background:#C99797;
+  text-align:center;
+  width:100px;
+}
+
+.subaccount-radio
+{
+  width:12px;
+  margin:auto auto;
+}
+
+/**
+ * Statistics
+ */
+.graphs-container
+{
+  background:#FFF;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin:0 0 40px 0;
+  padding:10px;
+  text-align:center;
+}
+
+.graphs-empty
+{
+  padding:20px;
+  font-size:16px;
+  font-style:italic;
+}
+
+.graphs-info
+{
+  text-align:center;
+  margin:0 0 40px 0;
+}
+
+/**
+ * Notification bar
+ */
+#notification-bar
+{
+  border: 1px solid;
+  text-align:center;
+  margin:0 0 25px 0;
+  padding:10px 5px 10px 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display:none;
+  font-size:14px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+#notification-bar.error
+{
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+
+#notification-bar.success
+{
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+/**
+ * Store content
+ */
+.category
+{
+  margin:5px 0 45px 0;
+  cursor:move;
+}
+
+.subcategories
+{
+  min-height:5px;
+}
+
+.category-table
+{
+ border:1px solid #DBDBDB;
+ width:590px;
+}
+
+.category-table thead
+{
+  background:#F0F0F0;
+}
+
+.category-table thead th
+{
+  padding:15px 10px 15px 10px;
+  height:20px;
+}
+
+.category-table tbody
+{
+  border:1px solid #DBDBDB;
+}
+
+.category-table .name
+{
+  width:330px;
+  text-align:left;
+}
+
+.category-table .buttons
+{
+  width:250px;
+  text-align:right;
+  opacity:0.5;
+}
+
+.category-table .buttons:hover
+{
+  opacity:1;
+}
+
+.subcategory-table
+{
+  width:565px; 
+  margin:0 0 0 24px;
+}
+
+.package
+{
+  border:1px solid #DBDBDB;
+  height:55px;
+  background:#FFF;
+  cursor:move;
+}
+
+.package td
+{
+  padding:15px 10px 15px 10px;
+}
+
+.empty-package
+{
+  font-style:italic;
+  color:#878787;
+  border:1px solid #DBDBDB;
+  height:55px;
+  background:#FFF;
+}
+
+.empty-package td
+{
+  padding-left:10px;
+}
+
+.uncategorized-table
+{
+  margin-top:5px;
+  margin-bottom:30px;
+}
+
+/**
+ * WYSIWYG textboxes
+ */
+.wysiwyg-description
+{
+  width:585px;
+  min-height:200px;
+}
